@@ -357,20 +357,20 @@ alert("Tú número es la raíz cuadrada de " +
 
 (((number,conversión a)))(((conversión de tipos)))(((función
 Number)))(((función String)))(((función Boolean)))(((Boolean,
-conversión a))) La función `Numero` convierte un valor a un número.
+conversión a))) La función `Number` convierte un valor a un número.
 Necesitamos esa conversión porque el resultado de `prompt` es un valor
 de cadena de texto (string), y queremos un número. Hay funciones similares
 llamadas `String` y `Boolean` que convierten valores a estos tipos.
 
-Aquí está la trivial representación esquemática de un flojo de control recto.
+Aquí está la trivial representación esquemática de un flujo de control recto.
 
 image::img/controlflow-straight.svg[alt="Trivial control flow",width="4cm"]
 
 == Ejecución Condicional ==
 
-(((Booleano)))(((flujo de control)))Ejecutar sentencia en línea recta no es
-la íunica opción que tenemos. Una alternativa es la _((ejecución condicional))_,
-en dondne escogemos entre dos rutas diferentes basados en un valor Booleano,
+(((Booleano)))(((flujo de control)))Ejecutar sentencias en línea recta no es
+la única opción que tenemos. Una alternativa es la _((ejecución condicional))_,
+en donde escogemos entre dos rutas diferentes basados en un valor Booleano,
 como el siguiente:
 
 image::img/controlflow-if.svg[alt="Conditional control flow",width="4cm"]
